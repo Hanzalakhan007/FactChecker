@@ -1,5 +1,9 @@
 # Fact-Checking Chatbot with Live Web Search and Evidence-Based Confidence Scoring
 
+## Live Dashboard
+
+Visit the deployed Streamlit app: [https://hanzalakhan-factchecker.streamlit.app/](https://hanzalakhan-factchecker.streamlit.app/)
+
 ## Project Overview
 
 This is a complete Natural Language Processing university project that builds a web-based fact-checking chatbot. A user enters a claim or question, the system searches the live web, retrieves source snippets and readable page text, extracts relevant evidence sentences, classifies evidence as supporting, contradicting, or neutral, and then generates a grounded final explanation with one local Hugging Face model: `Qwen/Qwen2.5-0.5B-Instruct`.
